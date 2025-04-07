@@ -9,6 +9,8 @@ body {
     background-color: #ffffff;
 }
 
+/*Pour la page d'accueil*/
+
 .homepage {
     background-color: #f2ab01;
     width: 375px;
@@ -30,7 +32,7 @@ body {
     height: auto;
 }
 
-h1 {
+.header-text {
     color: #ffffff;
     text-align: center;
     font-weight: bold;
@@ -38,7 +40,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
+.container-text {
     color: #333333;
     text-align: justify;
     margin-bottom: 30px;
@@ -87,3 +89,79 @@ button {
 button:hover {
     transform: scale(1.1);
 }
+
+/*Pour la page du cv*/
+
+.cv-container {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background-color: #FFFFFF;
+    border: 3px solid #333333;
+    /* display: flex;
+    width: 375px;
+    height: 812px;
+    border: 2px solid #333333;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: space-between; */
+}
+
+.profile-photo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 109px;
+    height: 110px;
+    left: 125.85px;
+    top: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(233, 233, 233, 0.2), rgba(233, 233, 233, 0.2)), url(assets/photoDeMoi.jpg);
+    border: 3px solid #FFFFFF;
+    border-radius: 85px 85px 0 85px;
+    transform: rotate(74.21deg);
+}
+
+/* .left-column {
+    width: 35%;
+    background-color: #333333;
+    position: relative;
+}
+
+.right-column {
+    width: 65%;
+    background-color: #ffffff;
+} */
+
+/* 
+w 109
+h 110
+en haut à gauche 85
+en bas à gauche 0
+en haut en droite 85
+en bas en gauche 85
+*/
+
+/* .photo-container {
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.yellow-triangle {
+    width: 109px;
+    height: 110px;
+    background-color: #F2AB01;
+}
+
+.profile-photo {
+    position: relative;
+    width: 109px;
+    height: 110px;
+    border-left: 85px;
+    border-bottom: 0;
+    border-top: 85px;
+    border-right: 85px;
+    position: relative;
+} */
