@@ -15,7 +15,8 @@ height: 812px;
 left: 0px;
 top: 0px;
 
-
+/*
+*/
 
 /* Rectangle 2 droite */
 
